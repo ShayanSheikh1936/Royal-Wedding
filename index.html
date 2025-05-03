@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Wardrobe - Navigation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./pictures/s.png" alt="Royal Wedding Logo">
+                    <div>
+                    <h2>Royal Wedding</h2>
+                    <h6>Buy--rent--sell</h6>
+                </div>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Shop</a></li>
+                <li><a href="services.html">Men's</a></li>
+                <li><a href="packages.html">Women's</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="user-actions">
+                <a href="login.html" class="login-btn">Login</a>
+                <a href="signup.html" class="signup-btn">Sign Up</a>
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="container">
+        <div class="content">
+            <h1>Welcome to Wedding Wardrobe</h1>
+            <p>Your destination for elegant wedding attire and accessories.</p>
+        </div>
+    </section>
+     <!-- Main Articles Section -->
+     <section class="main-articles">
+        <div class="section-title">
+            <h2>Featured Collections</h2>
+            <div class="title-underline"></div>
+        </div>
+        <section class="main-filter">
+            <div class="filter">
+                <select name="filter" id="">
+                    <option value="" selected disabled>Filter</option>
+                    <option value="">Color</option>
+                    <option value="">Size</option>
+                    <option value="">brand</option>
+                </select>
+                <select name="filter" id="">
+                    <option value="" selected disabled>Gender</option>
+                    <option value="">Mens</option>
+                    <option value="">Women</option>
+                </select>
+            </div>
+        </section>
+        
+        <div class="articles-container">
+            <!-- Article 1 -->
+            <article class="article-card">
+                <div class="article-image">
+                    <img src="./pictures/steptodown.com647975.jpg" alt="Bridal Collection">
+                    <div class="tag">Bridal</div>
+                </div>
+                <div class="article-content">
+                    <h3>Elegant Bridal Collection</h3>
+                    <p>Discover our stunning collection of wedding dresses designed for the modern bride.</p>
+                    <div class="article-footer">
+                        <a href="#" class="read-more">View Collection <i class="fas fa-arrow-right"></i></a>
+                        <span class="price">From $499</span>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- Article 2 -->
+            <article class="article-card">
+                <div class="article-image">
+                    <img src="./pictures/steptodown.com341480.jpg" alt="Groom Collection">
+                    <div class="tag">Groom</div>
+                </div>
+                <div class="article-content">
+                    <h3>Premium Groom Suits</h3>
+                    <p>Sophisticated and tailored suits that will make you look your best on your special day.</p>
+                    <div class="article-footer">
+                        <a href="#" class="read-more">View Collection <i class="fas fa-arrow-right"></i></a>
+                        <span class="price">From $299</span>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- Article 3 -->
+            <article class="article-card">
+                <div class="article-image">
+                    <img src="./pictures/steptodown.com218611.jpg" alt="Accessories">
+                    <div class="tag">Accessories</div>
+                </div>
+                <div class="article-content">
+                    <h3>Wedding Accessories</h3>
+                    <p>Complete your wedding look with our exquisite range of accessories and jewelry.</p>
+                    <div class="article-footer">
+                        <a href="#" class="read-more">View Collection <i class="fas fa-arrow-right"></i></a>
+                        <span class="price">From $49</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="view-all-container">
+            <a href="gallery.html" class="view-all-btn">View All Collections</a>
+        </div>
+    </section>
+</body>
+</html> 
