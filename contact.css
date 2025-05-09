@@ -10,6 +10,7 @@
     text-align: center;
     color: #fff;
     margin-bottom: 50px;
+    background-attachment:fixed ;
 }
 
 .contact-header h1 {
@@ -73,7 +74,7 @@
 
 .info-card .icon i {
     font-size: 1.5rem;
-    color: #d4af37;
+    color: var(--primary-color);
 }
 
 .info-content h3 {
@@ -135,7 +136,7 @@
 .contact-form select:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-color: #d4af37;
+    border-color: var(--primary-color);
     box-shadow: 0 0 10px rgba(230, 92, 123, 0.2);
 }
 
@@ -144,7 +145,7 @@
 }
 
 .contact-form .submit-btn {
-    background-color: #d4af37;
+    background-color: var(--primary-color);
     color: white;
     padding: 15px 30px;
     border: none;
@@ -222,7 +223,7 @@
 
 .appointment-btn {
     display: inline-block;
-    background-color: #d4af37;
+    background-color: var(--primary-color);
     color: white;
     padding: 15px 40px;
     border-radius: 30px;
