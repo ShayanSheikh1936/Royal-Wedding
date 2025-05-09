@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Royal Weeding</title>
+    <title>Royal Wedding - Shop</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
     <header>
         <nav class="navbar">
@@ -22,8 +21,8 @@
                 </a>
             </div>
             <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
                 <li><a href="services.html">Men's</a></li>
                 <li><a href="packages.html">Women's</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -40,93 +39,38 @@
         </nav>
     </header>
 
-    <section class="container">
+    <section class="container shop-header-container">
         <div class="content">
-            <h1>Elegant Wedding Attire</h1>
-            <p>Discover our exclusive collection of wedding dresses, suits, and accessories for your special day.</p>
-            <div class="header-buttons">
-                <a href="gallery.html" class="primary-btn">Shop Now</a>
-            </div>
-        </div>
-    </section>
-    <section class="main-articles">
-        <div class="section-title">
-            <h2>Featured Collections</h2>
+            <h1 class="header-text">Shop</h1>
             <div class="title-underline"></div>
         </div>
-        <section class="main-filter">
-            <div class="filter">
-                <select name="filter" id="">
-                    <option value="" selected disabled>Filter</option>
-                    <option value="">Color</option>
-                    <option value="">Size</option>
-                    <option value="">brand</option>
-                </select>
-                <select name="filter" id="">
-                    <option value="" selected disabled>Gender</option>
-                    <option value="">Mens</option>
-                    <option value="">Women</option>
-                </select>
-            </div>
-        </section>
-
-        <div class="featured-container">
-            <article class="article-card">
-                <div class="article-image">
-                    <img src="./pictures/steptodown.com647975.jpg" alt="Bridal Collection">
-                    <div class="tag">Bridal</div>
-                </div>
-                <div class="article-content">
-                    <h3>Elegant Bridal Collection</h3>
-                    <p>Discover our stunning collection of wedding dresses designed for the modern bride.</p>
-                    <div class="article-footer">
-                        <a href="#" class="read-more">View Collection <i class="fas fa-arrow-right"></i></a>
-                        <span class="price">From $499</span>
-                    </div>
-                </div>
-            </article>
-            <article class="article-card">
-                <div class="article-image">
-                    <img src="./pictures/steptodown.com341480.jpg" alt="Groom Collection">
-                    <div class="tag">Groom</div>
-                </div>
-                <div class="article-content">
-                    <h3>Premium Groom Suits</h3>
-                    <p>Sophisticated and tailored suits that will make you look your best on your special day.</p>
-                    <div class="article-footer">
-                        <a href="#" class="read-more">View Collection <i class="fas fa-arrow-right"></i></a>
-                        <span class="price">From $299</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="article-card">
-                <div class="article-image">
-                    <img src="./pictures/steptodown.com218611.jpg" alt="Accessories">
-                    <div class="tag">Accessories</div>
-                </div>
-                <div class="article-content">
-                    <h3>Wedding Accessories</h3>
-                    <p>Complete your wedding look with our exquisite range of accessories and jewelry.</p>
-                    <div class="article-footer">
-                        <a href="#" class="read-more">View Collection <i class="fas fa-arrow-right"></i></a>
-                        <span class="price">From $49</span>
-                    </div>
-                </div>
-            </article>
-        </div>
-        <div class="view-all-container">
-            <a href="gallery.html" class="view-all-btn">View All Collections</a>
-        </div>
     </section>
+
     <section class="product-container">
         <div class="section-title">
-            <h2>Popular Products</h2>
+            <h2>Our Products</h2>
             <div class="title-underline"></div>
+        </div>
+
+        <div class="filter">
+            <select>
+                <option value="">Filter by Category</option>
+                <option value="bridal">Bridal</option>
+                <option value="groom">Groom</option>
+                <option value="accessories">Accessories</option>
+                <option value="jewellery">Jewellery</option>
+            </select>
+            <select>
+                <option value="">Sort by</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="popular">Most Popular</option>
+                <option value="newest">Newest</option>
+            </select>
         </div>
         
         <div class="products-grid">
-
+            <!-- Bridal Products -->
             <div class="product-card">
                 <div class="product-badge">Bestseller</div>
                 <div class="product-image">
@@ -209,6 +153,7 @@
                 </div>
             </div>
             
+            <!-- Groom Products -->
             <div class="product-card">
                 <div class="product-badge">Sale</div>
                 <div class="product-image">
@@ -290,7 +235,8 @@
                     </div>
                 </div>
             </div>
-
+            
+            <!-- Accessories -->
             <div class="product-card">
                 <div class="product-badge">Limited</div>
                 <div class="product-image">
@@ -344,12 +290,99 @@
                     </div>
                 </div>
             </div>
+            
+            <!-- Additional Products for Shop Page -->
+            <div class="product-card">
+                <div class="product-badge">New</div>
+                <div class="product-image">
+                    <img src="./pictures/steptodown.com647975.jpg" alt="Bridal Outfit">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <a href="#" class="quick-view"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Embroidered Bridal Veil</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(5.0)</span>
+                    </div>
+                    <div class="price-row">
+                        <p class="price">$249</p>
+                        <p class="original-price">$299</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./pictures/steptodown.com341480.jpg" alt="Groom Outfit">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <a href="#" class="quick-view"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Designer Wedding Turban</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <span>(3.5)</span>
+                    </div>
+                    <div class="price-row">
+                        <p class="price">$179</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <div class="product-badge">Sale</div>
+                <div class="product-image">
+                    <img src="./pictures/steptodown.com647975.jpg" alt="Bridal Outfit">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <a href="#" class="quick-view"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Designer Bridal Clutch</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(4.0)</span>
+                    </div>
+                    <div class="price-row">
+                        <p class="price">$129</p>
+                        <p class="original-price">$179</p>
+                    </div>
+                </div>
+            </div>
         </div>
         
-        <div class="view-all-container">
-            <a href="gallery.html" class="view-all-btn">View All Products</a>
+        <div class="pagination">
+            <a href="#" class="page active">1</a>
+            <a href="#" class="page">2</a>
+            <a href="#" class="page">3</a>
+            <a href="#" class="next">Next <i class="fas fa-chevron-right"></i></a>
         </div>
     </section>
+
     <footer class="container-footer">
         <div class="content1">
             <ol>
@@ -405,10 +438,10 @@
             <span><a href=""><i class="fa-brands fa-linkedin"></i></a></span>
         </div>
     </footer>
-    <footer>
-        <div class="bottom-footer">
-            <p>&copy;2025 <span>ROYAL WEDDING</span>&nbsp;&nbsp; All Rights Reserved &nbsp;&nbsp;Developed by <span><a href="https://www.linkedin.com/in/shayan-sheikh-dev-44b946353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Shayan Sheikh</a></span></p>        </div>
-    </footer>
+</footer>
+<footer>
+    <div class="bottom-footer">
+        <p>&copy;2025 <span>ROYAL WEDDING</span>&nbsp;&nbsp; All Rights Reserved &nbsp;&nbsp;Developed by <span><a href="https://www.linkedin.com/in/shayan-sheikh-dev-44b946353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Shayan Sheikh</a></span></p>    </div>
+</footer>
 </body>
-
-</html>
+</html> 
