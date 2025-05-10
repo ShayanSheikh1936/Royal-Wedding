@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --primary-color: #d4af37;
+    --secondary-color: #451421;
+    --light-color: #fff;
+    --light-color-golden: #fff9e6;
+
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: li;
+}
+
+.about-us{
+    width: 100%;
+}
+
+.wrapper {
+    padding: 0px 60px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.about-content{
+    width:60%;
+    float: left;
+    text-align: left;
+    padding: 0px 30px;
+}
+.about-content h3{
+    color: #000000;
+    letter-spacing: 1px;
+    font-family: 'ferly';
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 30px;
+}
+.about-content p{
+    font-size: 18px;
+    color: #3d3d3d;
+    margin-top: 20px;
+}
+.content .button{
+    margin-top: 40px;
+}
+.about-container {
+    background-image: linear-gradient(to top right, rgba(235, 55, 32, 0.8), rgb(212, 175, 55, 0.5)), url(./pictures/steptodown.com100726.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-attachment:fixed ;
+}
+p:nth-last-child(3)
+{
+    margin: 30px;
+}
+p:nth-last-child(4)
+{
+    margin: 30px;
+}
+p:nth-last-child(2)
+{
+    margin: 30px;
+}
+p:last-child
+{
+    margin: 30px;
+}
