@@ -65,19 +65,19 @@ body{
     color: #fff;
     background-attachment:fixed ;
 }
-p:nth-last-child(3)
+.paragraph:nth-last-child(3)
 {
     margin: 30px;
 }
-p:nth-last-child(4)
+.paragraph:nth-last-child(4)
 {
     margin: 30px;
 }
-p:nth-last-child(2)
+.paragraph:nth-last-child(2)
 {
     margin: 30px;
 }
-p:last-child
+.paragraph:last-child
 {
     margin: 30px;
 }
