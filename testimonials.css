@@ -1,0 +1,211 @@
+:root {
+    --primary-color: #d4af37;
+    --secondary-color: #451421;
+    --light-color: #fff;
+    --light-color-golden: #fff9e6;
+    --card-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-header {
+    background-image: linear-gradient(to top right, rgba(235, 55, 32, 0.8), rgb(212, 175, 55, 0.5)), url(./pictures/pngtree-wide-floral-wreath-backdrop-for-elegant-wedding-interior-decoration-luxurious-ceremony-image_16409384.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-attachment: fixed;
+    padding: 0 20px;
+}
+
+.testimonial-header .content h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.testimonial-header .content p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 20px auto 0;
+}
+
+.testimonial-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 5%;
+    background-color: var(--light-color-golden);
+}
+
+.testimonial-card {
+    background-color: var(--light-color);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.3s ease;
+    position: relative;
+    width: 350px;
+    flex: 0 0 auto;
+    margin-bottom: 20px;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+}
+
+.client-image {
+    height: 180px;
+    overflow: hidden;
+}
+
+.client-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    transition: transform 0.5s ease;
+}
+
+.testimonial-card:hover .client-image img {
+    transform: scale(1.1);
+}
+
+.quote-icon {
+    position: absolute;
+    top: 160px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.quote-icon i {
+    color: var(--light-color);
+    font-size: 20px;
+}
+
+.testimonial-content {
+    padding: 30px 25px 25px;
+}
+
+.testimonial-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.client-info h4 {
+    color: var(--secondary-color);
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.client-info p {
+    color: #777;
+    margin: 0;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+.rating {
+    margin-top: 15px;
+}
+
+.rating i {
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.testimonial-form {
+    padding: 60px 5%;
+    background-color: #f9f9f9;
+}
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-container h2 {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.form-container p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+.rating-select {
+    display: flex;
+    align-items: center;
+}
+
+.rating-select label {
+    margin-right: 20px;
+    color: #555;
+    font-size: 1rem;
+}
+
+.star-rating i {
+    color: #ddd;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.2s;
+    margin-right: 5px;
+}
+
+.star-rating i:hover {
+    color: var(--primary-color);
+}
+
+.submit-btn {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border: none;
+    padding: 15px 35px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: var(--secondary-color);
+}
