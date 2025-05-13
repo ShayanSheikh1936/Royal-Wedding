@@ -9,6 +9,7 @@ Royal Wedding is a responsive e-commerce website focusing on wedding attire for 
 - **About Us**: Learn about the story and mission behind Royal Wedding
 - **Interactive Elements**: Hover effects, image overlays, and responsive navigation
 - **Testimonials**: Read client experiences and submit your own feedback
+- **User Dashboard**: Manage orders, rentals, wishlist, and account settings
 
 ## Pages
 - **Home**: Landing page showcasing featured collections and popular products
@@ -17,11 +18,13 @@ Royal Wedding is a responsive e-commerce website focusing on wedding attire for 
 - **Women's**: Collection of bridal wear including lehengas, sarees, and gowns
 - **About Us**: Story and mission behind Royal Wedding
 - **Testimonials**: Customer reviews and experiences with the service
+- **Dashboard**: User account management with orders, rentals, and settings
 - **Contact**: Contact information and inquiry form
 
 ## Technology Stack
 - HTML5
 - CSS3
+- JavaScript (basic interactivity)
 - Font Awesome for icons
 - Google Maps integration for store location
 
@@ -32,12 +35,14 @@ Royal Wedding/
 ├── shop.html             # Shop page
 ├── about.html            # About us page
 ├── testimonials.html     # Testimonials page
+├── dashboard.html        # User dashboard page
 ├── contact.html          # Contact page
 ├── style.css             # Main stylesheet
 ├── about.css             # About page specific styles
 ├── contact.css           # Contact page specific styles
 ├── shop.css              # Shop page specific styles
 ├── testimonials.css      # Testimonials page specific styles
+├── dashboard.css         # Dashboard page specific styles
 └── pictures/             # Image assets
     └── Various images used throughout the website
 ```

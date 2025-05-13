@@ -102,7 +102,6 @@ body
     transition: transform 0.3s ease;
 }
 
-/* User actions buttons */
 .user-actions {
     display: flex;
     align-items: center;
@@ -152,12 +151,6 @@ body
 .getintouch-btn:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);
-}
-.mobile-menu-btn {
-    display: none;
-    font-size: 24px;
-    cursor: pointer;
-    color: white;
 }
 .container
 {
